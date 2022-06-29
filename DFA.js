@@ -20,7 +20,7 @@ function DFA (myObject)
       else{
           for(let i=0;i<pattern.length;i++){
               if(state === '0'){
-                  let block = pattern[i]+pattern[i+1];//block prototype (2), the 'block' can be any pattern format needed for checking relevant chunks of some type.
+                  let block = pattern[i]+pattern[i+1];
                   switch(block)
                   {
                       case "AA":state = "1";continue;
