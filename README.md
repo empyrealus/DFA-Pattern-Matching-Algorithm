@@ -3,7 +3,7 @@ Pattern matching algorithm using Deterministic Finite Automata and Regular Expre
 
 Determinisitic Finite Automata is used for finite state machines and/or algorithim production within larger programs that 
 utilize states; think of a vending machine or elevator. Deterministic Finite Automata can also have more advanced applications
-such as real-time speech recognition or network security (TPP handhshake process) applicaions, etc.
+such as real-time speech recognition or network security (TPP handhshake process) applications, etc.
 
 This basic DFA is implemented utilizing Javascript to match the pattern (Regular Expression) (AA+TT)(AA+TT)* 
 
