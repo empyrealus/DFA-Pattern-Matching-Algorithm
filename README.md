@@ -17,3 +17,6 @@ expression that adheres to that rule of the grammar. The regular expression woul
 See how it's implemented in Javascript by exploring the code.
 
 *. Note that this does not contain a "How to Implement a DFA" but is rather an example of a baisc one and a DFA's capabilities.
+
+See how you can use a DFA to find a 'needle' in a 'haystack':
+https://phyziro.com/hwTest.php
