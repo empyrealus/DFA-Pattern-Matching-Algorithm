@@ -12,5 +12,8 @@ that consists of our languages alphabet to search for meaningful patterns.
 
 Using the DNA sequencing letters as an example we may say that our langugae DNA* consists of the alphabet {A,C,G,T}, if a rule
 of the DNA grammar states that we MUST have any combonation of AATTAATTAAAA or TTAATTAATTTTTT, then we may craft a regular
-expression that adheres to that rule of the grammar. The regular expression would look like (AA+TT)(AA+TT)*. See how it's
-implemented in Javascript by exploring the code.
+expression that adheres to that rule of the grammar. The regular expression would look like (AA+TT)(AA+TT)*. 
+
+See how it's implemented in Javascript by exploring the code.
+
+*. Note that this does not contain a "How to Implement a DFA" but is rather an example of a baisc one and a DFA's capabilities.
