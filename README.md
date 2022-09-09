@@ -10,7 +10,7 @@ This basic DFA is implemented utilizing Javascript to match the pattern (Regular
 A language may contain a set of rules called our grammar. Utilizing the rules of our grammar we can come up with a Regular Expression
 that consists of our languages alphabet to search for meaningful patterns. 
 
-Using the DNA sequencing letters as an example we may say that our langugae DNA* consists of the alphabet {A,C,G,T}, if a rule
+Using the DNA sequencing letters as an example we may say that our language DNA* consists of the alphabet {A,C,G,T}, if a rule
 of the DNA grammar states that we MUST have any combonation of AATTAATTAAAA or TTAATTAATTTTTT, then we may craft a regular
 expression that adheres to that rule of the grammar. The regular expression would look like (AA+TT)(AA+TT)*. 
 
