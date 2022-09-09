@@ -12,4 +12,4 @@ function breakIt(){console.log(result);throw new UserException("Completed");}
 function loop_matrix(values){that(i);(i < (values+1)) ? loop_matrix(values) : breakIt();}
 var matrixState = Number(matrixX.length) + Number(matrixY.length),
 matrixRem = matrixState/2,value = (matrixState % 2 === 0 && matrixX.length!=0 && matrixY.length!=0 ) ? 
-loop_matrix(matrixRem) :throw new UserException("Invalid Matrix");
+loop_matrix(matrixRem) : throw new UserException("Invalid Matrix");
