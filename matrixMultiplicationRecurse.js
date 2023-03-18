@@ -1,5 +1,5 @@
 // Using recursion to perform matrix multiplication
-// features includes: valid matrix check, finite numbers only, terneary break statement work around with custom error reporting
+// features includes: valid matrix check (quantum logic gates), finite numbers only, terneary break statement work around with custom error reporting
 // Console.log(result) is used to show where the loop ends programmatically
 'use strict';
 var matrixY = [1,3,4,4],matrixX = [2,5,4,4],result = [],error = "Invalid Matrix",i=-1,newval;
