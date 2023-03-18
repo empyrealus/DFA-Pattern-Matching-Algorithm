@@ -1,3 +1,4 @@
+// Theoretical Quantum Programing*
 // Using recursion to perform matrix multiplication
 // features includes: valid matrix check (quantum logic gates), finite numbers only, terneary break statement work around with custom error reporting
 // Console.log(result) is used to show where the loop ends programmatically
